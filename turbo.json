@@ -5,6 +5,9 @@
       "dependsOn": ["^build"],
       "outputs": ["dist/**", ".next/**"]
     },
+    "build:contracts": {
+      "outputs": ["contracts/**/target/**"]
+    },
     "dev": {
       "cache": false
     },

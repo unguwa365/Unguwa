@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "turbo run dev",
     "build": "turbo run build",
+    "build:contracts": "cargo build --manifest-path contracts/Cargo.toml --target wasm32-unknown-unknown --release",
     "test": "turbo run test",
     "clean": "turbo run clean"
   },
