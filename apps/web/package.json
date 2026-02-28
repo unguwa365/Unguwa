@@ -2,5 +2,11 @@
   "name": "@unguwa/web",
   "private": true,
   "version": "0.1.0",
-  "scripts": {}
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx,.js",
+    "format": "prettier --check ."
+  },
+  "devDependencies": {
+    "@unguwa/eslint-config-custom": "workspace:*"
+  }
 }
